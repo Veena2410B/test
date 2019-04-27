@@ -16,6 +16,7 @@ export default function MenuBusinessProcess() {
 
 <br></br>
 
+<div align="center">
 
 
 
@@ -23,7 +24,8 @@ export default function MenuBusinessProcess() {
   <Row>
     <Col><Link to="/businessprocess/PatientCareManagement">    
 <Button size="lg" variant="outline-success" >Patient Care Management</Button>
-</Link> </Col>
+</Link> </Col> 
+<br></br><br></br><br></br>
     <Col xs={6}> <Link to="/businessprocess/PatientRegistration">    
 <Button size="lg" variant="outline-success" >Patient Registration</Button>
 </Link> </Col>
@@ -34,6 +36,7 @@ export default function MenuBusinessProcess() {
   <Col><Link to="/businessprocess/AdmissionProcess">
  <Button size="lg"  variant="outline-success">Admission Process</Button>
  </Link></Col>
+ <br></br><br></br><br></br>
  <Col xs={6}> <Link to="/businessprocess/DiagnosticsProcess">
  <Button size="lg"  variant="outline-success">Diagnostics Process</Button>
  </Link></Col>
@@ -43,6 +46,7 @@ export default function MenuBusinessProcess() {
   <Row>
   <Col><Link to="/businessprocess/SchedulingAppointment">
  <Button size="lg" variant="outline-success">Scheduling Appointment</Button></Link></Col>
+ <br></br><br></br><br></br>
  <Col xs={6}><Link to="/businessprocess/PharmacyInventoryManagementProcess">
  <Button size="lg" variant="outline-success">Pharmacy and Inventory Management Process</Button></Link>
  </Col>
@@ -52,6 +56,7 @@ export default function MenuBusinessProcess() {
   <Row>
     <Col> <Link to="/businessprocess/MainPharmacyManagementProcess">
  <Button size="lg" variant="outline-success">Main pharmacy management process</Button></Link></Col>
+ <br></br><br></br><br></br>
  <Col xs={6}><Link to="/businessprocess/MedicalSuppliesDistributionProcess">
  <Button size="lg" variant="outline-success">Medical supplies distribution process</Button></Link>
 </Col>
@@ -62,7 +67,7 @@ export default function MenuBusinessProcess() {
 <Col> <Link to="/businessprocess/DispensingProcess">
  <Button size="lg" variant="outline-success">Dispensing process</Button></Link>
 </Col>
-
+<br></br><br></br><br></br>
 <Col xs={6}>  <Link to="/businessprocess/PatientBillingProcess">
  <Button size="lg" variant="outline-success">Patient Billing Process</Button>
  </Link>
@@ -71,7 +76,6 @@ export default function MenuBusinessProcess() {
 
 </Container>
 
-<div align="center">
 
 
  <br></br>

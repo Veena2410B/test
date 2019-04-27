@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div>
         <h1>GUIDELINES AND STANDARDS </h1>
-        <h2>FOR INTEGRATED HEALT FACILITY ELECTRONIC MANAGEMENT SYSTEM</h2>
+        <h2>FOR INTEGRATED HEALTH FACILITY ELECTRONIC MANAGEMENT SYSTEM</h2>
     </div>
   )
 }

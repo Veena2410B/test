@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
 export class MenuGuidelines extends Component {
   render() {
     return (
-      <div>
+      <div align="center"> 
 
 
 <br></br>

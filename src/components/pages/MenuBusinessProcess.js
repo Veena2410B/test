@@ -26,22 +26,22 @@ export default function MenuBusinessProcess() {
 
         <h3>HEALTH FACILITY BUSINESS PROCESS REENGINEERING</h3>
 
-        <div class="c">
+        <div className="c">
 
         <Card bg="light" text="white" >
     <Card.Body>
          <Card.Text>
-      <div> Health facility business process reengineering involves critical analysis and redesign of workflows and
+      Health facility business process reengineering involves critical analysis and redesign of workflows and
 work practices of existing business processes within the Health facility setting in order to maximize the
-value of the computerization process.</div>
+value of the computerization process.
 <br></br>
-<div>IMAGE HERE</div>
+IMAGE HERE
 <br></br>
-<div>Figure 1: Presents an overview of the Health facility business processes framework, which includes
+Figure 1: Presents an overview of the Health facility business processes framework, which includes
 business processes classified as core processes, support processes and back office processes. The
 framework presents a high level representation of how a typical Health facility operates. This section
 provides guidelines and procedures for process improvement, and process map (flow of activities) for
-each business process to be supported by iHFeMS.</div>
+each business process to be supported by iHFeMS.
 
 
       </Card.Text>
@@ -97,7 +97,7 @@ shall be approved by the Health facility steering committee
 
 
 
- <div>
+ <div align="center">
 
 
  <Link to="/businessprocess/PatientCareManagement">    

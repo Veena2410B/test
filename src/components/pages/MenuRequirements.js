@@ -14,10 +14,10 @@ export class MenuRequirements extends Component {
         This part provides the minimum requirements and standards the iHFeMS must meet to ensure that it creates value and the utility to its stakeholders. These requirements and standards have been drawn from the stakeholders, international literature and best practices. The requirements include both systems requirements, computing infrastructure and human resource requirements.
         </p>
 
-        <div>
+        <div align="center">
 
 
-<div>
+<div >
 <Link to="/requirements/SystemFunctionalNonFunctionalRequirements">    
 <Button size="lg" variant="outline-success" >System Functional and Non-functional Requirements</Button>
 </Link> 

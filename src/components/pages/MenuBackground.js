@@ -25,7 +25,7 @@ class MenuBackground extends Component {
   return (
 
        
-    <div>
+    <div align="center">
 
     <h1>Background</h1>
         <br></br>

@@ -1,7 +1,8 @@
+
+
 body {
-    background-color: #e6f2ff; 
-    /* background-image: url(../../images/bg1.png); */ 
-    background-image: url(/public/images/bg.jpg);
+    background-color: black; 
+    background-image: url(/images/tz.png) !important;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover; 
@@ -9,9 +10,10 @@ body {
     color: #333333;
     font-size: 16px;
     overflow-x: hidden;
-    text-align: left;    
+    text-align: left;   
 
-  }
+
+}
 
   .main {
     background-color: #ffffff; 
@@ -22,57 +24,21 @@ body {
     margin-bottom: 20px;
 }
 
- div.c {
-  margin-left: 150px;
-  margin-right: 150px;
-}
-
- p {
-    background-color: #f2f2f2; opacity:0.8;
-    font-family: "Roboto", sans-serif;
-    color: #333333; 
-    font-size: 16px;
-    overflow-x: hidden;
-    text-align: left;
-    margin: 100px;
-    box-shadow: 5px 5px;
-  }
-.no-padding {
-    padding: 0;
-  }
-  
-  .no-border {
-    border: none;
-  }
-  
-  /* MODULES - Individual site components */
-  ul {
-    padding: 0;
-    margin: 0;
-    list-style-position: inside;
-    text-align: left;
-
-    }
-  
-  a {
-    text-decoration: none;
-    color: #04B404;
-  }
-  
-  a:hover,
-  a:focus {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  h1, h3, h4, h5, h6 {
+ .main h1, .main h3, .main h4, .main h5, .main h6 {
     font-family: "Montserrat", sans-serif;
     color: #009933;
     text-align: center;
   }
 
+  .main h3, .main h4, .main h5, .main h6 {
+
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+
+  }
   
-  h2 {
+  .main h2 {
     font-family: "Montserrat", sans-serif;
     color: #0066ff;
     font-size: 30px;
@@ -81,12 +47,12 @@ body {
     margin: 0;
     text-align: center;
   }
-  
-  img {
-    border: none;
+
+  div.c {
+    margin-left: 150px;
+    margin-right: 150px;
   }
-
-
+  
 
   button {
     background-color: #4CAF50;
@@ -101,8 +67,15 @@ body {
     cursor: pointer;
   }
 
+  p {
+    background-color: #f2f2f2; opacity:0.8;
+    font-family: "Roboto", sans-serif;
+    color: #333333; 
+    font-size: 16px;
+    overflow-x: hidden;
+    text-align: left;
+    margin: 100px;
+    box-shadow: 5px 5px;
 
 
-
-
-
+  }

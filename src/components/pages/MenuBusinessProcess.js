@@ -2,7 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card'
+import Card from 'react-bootstrap/Card';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 
 export default function MenuBusinessProcess() {
@@ -12,6 +15,70 @@ export default function MenuBusinessProcess() {
         <h2>Business Process</h2>
 
 <br></br>
+
+
+
+
+<Container>
+  <Row>
+    <Col><Link to="/businessprocess/PatientCareManagement">    
+<Button size="lg" variant="outline-success" >Patient Care Management</Button>
+</Link> </Col>
+    <Col xs={6}> <Link to="/businessprocess/PatientRegistration">    
+<Button size="lg" variant="outline-success" >Patient Registration</Button>
+</Link> </Col>
+  
+  </Row>
+
+  <Row>
+  <Col><Link to="/businessprocess/AdmissionProcess">
+ <Button size="lg"  variant="outline-success">Admission Process</Button>
+ </Link></Col>
+ <Col xs={6}> <Link to="/businessprocess/DiagnosticsProcess">
+ <Button size="lg"  variant="outline-success">Diagnostics Process</Button>
+ </Link></Col>
+   
+  </Row>
+
+  <Row>
+  <Col><Link to="/businessprocess/SchedulingAppointment">
+ <Button size="lg" variant="outline-success">Scheduling Appointment</Button></Link></Col>
+ <Col xs={6}><Link to="/businessprocess/PharmacyInventoryManagementProcess">
+ <Button size="lg" variant="outline-success">Pharmacy and Inventory Management Process</Button></Link>
+ </Col>
+  </Row>
+
+
+  <Row>
+    <Col> <Link to="/businessprocess/MainPharmacyManagementProcess">
+ <Button size="lg" variant="outline-success">Main pharmacy management process</Button></Link></Col>
+ <Col xs={6}><Link to="/businessprocess/MedicalSuppliesDistributionProcess">
+ <Button size="lg" variant="outline-success">Medical supplies distribution process</Button></Link>
+</Col>
+   
+  </Row>
+
+<Row> 
+<Col> <Link to="/businessprocess/DispensingProcess">
+ <Button size="lg" variant="outline-success">Dispensing process</Button></Link>
+</Col>
+
+<Col xs={6}>  <Link to="/businessprocess/PatientBillingProcess">
+ <Button size="lg" variant="outline-success">Patient Billing Process</Button>
+ </Link>
+</Col>
+</Row>
+
+</Container>
+
+<div align="center">
+
+
+ <br></br>
+ <br></br>
+
+
+</div>
 
        {/*  <Link to="/businessprocess/PatientCareManagement">Patient Care Management</Link> 
         <br></br><Link to="/businessprocess/PatientRegistration">Patient Registration</Link> 
@@ -96,73 +163,6 @@ shall be approved by the Health facility steering committee
   </div>
 
 
-
- <div align="center">
-
-
- <Link to="/businessprocess/PatientCareManagement">    
-<Button size="lg" variant="outline-success" >Patient Care Management</Button>
-</Link> 
-
-<br></br><br></br>
-
-<Link to="/businessprocess/PatientRegistration">    
-<Button size="lg" variant="outline-success" >Patient Registration</Button>
-</Link> 
-
-<br></br><br></br>
-
-<Link to="/businessprocess/AdmissionProcess">
-  <Button size="lg"  variant="outline-success">Admission Process</Button>
-  </Link>
-
-  <br></br><br></br>
-
-
-  <Link to="/businessprocess/DiagnosticsProcess">
-  <Button size="lg"  variant="outline-success">Diagnostics Process</Button>
-  </Link>
-
-  <br></br><br></br>
-
-
-<Link to="/businessprocess/SchedulingAppointment">
-  <Button size="lg" variant="outline-success">Scheduling Appointment</Button></Link>
-
-  <br></br><br></br>
-
-
-  <Link to="/businessprocess/PharmacyInventoryManagementProcess">
-  <Button size="lg" variant="outline-success">Pharmacy and Inventory Management Process</Button></Link>
-  
-  <br></br><br></br>
-
-
-  <Link to="/businessprocess/MainPharmacyManagementProcess">
-  <Button size="lg" variant="outline-success">Main pharmacy management process</Button></Link>
-
-  <br></br><br></br>
-
-
-<Link to="/businessprocess/MedicalSuppliesDistributionProcess">
-  <Button size="lg" variant="outline-success">Medical supplies distribution process</Button></Link>
-
-  <br></br><br></br>
-
-  <Link to="/businessprocess/DispensingProcess">
-  <Button size="lg" variant="outline-success">Dispensing process</Button></Link>
-
-  <br></br><br></br>
-
-  <Link to="/businessprocess/PatientBillingProcess">
-  <Button size="lg" variant="outline-success">Patient Billing Process</Button>
-  </Link>
-
-  <br></br>
-  <br></br>
-
-
- </div>
   </div>
   )
 }

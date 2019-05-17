@@ -35,6 +35,9 @@ import AccessingComplianceExistingSystem from './components/pages/guidelines/acc
 import Home from './components/pages/Home';
 import Modal from './components/layout/modal/Modal';
 
+import Home2 from './components/pages/Home2';
+
+
 
 /* import './components/layout/style.css'; 
  */
@@ -76,6 +79,10 @@ class Website extends Component {
             <Route path="/guidelines/MonitoringEvaluation" component={MonitoringEvaluation} />
             <Route path="/guidelines/ClosureSignOff" component={ClosureSignOff} />
             <Route path="/guidelines/AccessingComplianceExistingSystem" component={AccessingComplianceExistingSystem} />
+
+
+            <Route path="/home2" component={Home2} />
+
           </div>
         </div>
       </Router>

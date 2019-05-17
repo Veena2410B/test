@@ -8,7 +8,8 @@ export default function FunctionalRequirements() {
       <p>Functional requirements capture the intended behavior of the iHFeMS expressed as services, tasks or
                                     functions the system is required to perform. There are various techniques that will help you to indicate
                                     the level of priority of each system requirement. We have chosen to address the minimum requirement
-                                    that must be incorporated in each iHFeMS with a word <i>Must</i> to indicate a <i>Mandatory</i> priority.</p>
+                                    that must be incorporated in each iHFeMS with a word <i>Must</i> to indicate a <i>Mandatory</i> priority.
+                                    </p>
                                 <br></br>
                                 <h4>Objective</h4>
                                 <p>

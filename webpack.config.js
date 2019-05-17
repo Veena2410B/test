@@ -24,9 +24,23 @@ module.exports = (env) => {
       rules: [{
         loader: 'babel-loader',
         test: /\.js$/,
-        exclude: /node_modules/
-      }, {
-        test: /\.s?css$/,
+        exclude: /node_modules/,
+      }, 
+
+
+
+      {
+        test:  /\.(png|jpg)$/,
+        use: [
+          {
+            loader: 'url-loader?limit=8192',
+            options: {},
+          },
+        ],
+      },
+      
+      {
+        test: /\.s?css$/, 
         use: CSSExtract.extract({
           use: [
             {
@@ -43,8 +57,10 @@ module.exports = (env) => {
             }
           ]
         })
-      }]
+      }
+    ]
     },
+    
     plugins: [
       CSSExtract,
       new webpack.DefinePlugin({

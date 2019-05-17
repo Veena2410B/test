@@ -41,8 +41,9 @@ class Modal extends Component {
 
         let modal = (
             <div style={dialogStyle}>
-            <button style={buttonStyle} onClick={this.props.onClose}>x</button>
             <div> {this.props.children} </div>
+            <button style={buttonStyle} onClick={this.props.onClose}>Close</button>
+
 
         </div>
         );

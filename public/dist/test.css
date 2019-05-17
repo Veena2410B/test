@@ -79,3 +79,24 @@ body {
 
 
   }
+
+
+
+
+  a:link, a:visited
+  {
+      color:blue;
+      text-decoration: none;
+      padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+
+  }
+  a:hover, a:visited:hover
+  {
+      color: #fff;
+      text-decoration: none!important;
+/*       font-weight: bold; 
+ */      
+    }
+

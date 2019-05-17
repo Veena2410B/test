@@ -24,7 +24,7 @@ export default function implementing() {
 
                                 <h3>Phase 1: Planning </h3>
 
-<b>Description</b>
+<h6>Description</h6>
 <p>The implementation of the iHFeMS requires careful planning to ensure that the
     implementation
     proceeds in comprehensive, cost-effective and timely ways. This involves a range of
@@ -35,15 +35,15 @@ export default function implementing() {
     computing
     infrastructure.</p>
 
-<b>Objective</b>
+<h6>Objective</h6>
 <p>To ensure adequate allocation of resources for successful iHFeMS implementation</p>
 
-<b>Scope</b>
+<h6>Scope</h6>
 <p>All iHFeMS implementation activities in the health facility shall be subjected to a
     formal business
     planning process.</p>
 
-<b>Standard Guidelines</b>
+<h6>Standard Guidelines</h6>
 <br></br>
 
 <h4>Establishing iHFeMS Governance</h4>
@@ -80,7 +80,7 @@ export default function implementing() {
     Elderly and Children who is the Executive Sponsor of this initiative.
 </p>
 
-<b>Standard Guidelines:</b>
+<h6>Standard Guidelines:</h6>
 <p>
     <br></br>SG1. The implementation of the iHFeMS shall be transparently managed and
     inclusive to ensure
@@ -301,7 +301,7 @@ export default function implementing() {
                                 </p>
 
                                 <h4>Readiness Assessment and Implementation Analysis</h4>
-                                <b>Readiness Assessment</b>
+                                <h6>Readiness Assessment</h6>
                                 <p>The primary purpose of the assessment is to identify the needs and determine Health
                                     facility specific
                                     strategy for the iHFeMS implementation. The readiness assessment should be performed
@@ -326,7 +326,7 @@ export default function implementing() {
                                 </p>
 
 
-                                <b>Implementation Analysis</b>
+                                <h6>Implementation Analysis</h6>
                                 <p>
                                     Health facility must perform the implementation analysis. The primary input to this
                                     analysis is the
@@ -356,15 +356,17 @@ export default function implementing() {
                                     iHFeMS and new
                                     hardware and software into the Health facility operating environment.</p>
 
-                                <b>Objective</b>
+                                <h6>Objective</h6>
                                 <p>To ensure that quality standards are implemented when acquiring the iHFeMS, computer
                                     hardware
                                     and software for usage within the Health facility environment.</p>
-                                <b>Scope</b>
+                                <h6>Scope</h6>
                                 <p>This guideline applies to the acquisition of the iHFeMS, new hardware, networking and
                                     software
                                     within the Health facility environment</p>
-                                <b>Standard Guidelines</b>
+                                <h6>Standard Guidelines</h6>
+
+                                <p>
                                 <ul>
                                     <li>The iHFeMS and the computing infrastructure equipment that shall be acquired and
                                         installed
@@ -379,8 +381,10 @@ export default function implementing() {
                                         regulations
                                     </li>
                                 </ul>
-                                <b>Responsibility</b>
-                                <b>Procedure</b>
+                                </p>
+
+                                <h6>Responsibility</h6> <br></br>
+                                <h6>Procedure</h6>
                                 <p>
                                     The following quality standards should be considered for iHFeMS and the computing
                                     infrastructure
@@ -428,16 +432,16 @@ export default function implementing() {
                                     and system
                                     administrators training and ICT governance training for managers.</p>
 
-                                <b>Objectives</b>
+                                <h6>Objectives</h6>
                                 <p>To ensure that the installation or implementation of computing infrastructure, iHFeMS
                                     software
                                     acceptance and Training is compliant with Organization Guidelines and quality
                                     standards</p>
-                                <b>Scope</b>
+                                <h6>Scope</h6>
                                 <p>To ensure that the iHFeMS is being deployed according the approved approach and
                                     Standards
                                     guidelines</p>
-                                <b>Standard Guidelines</b>
+                                <h6>Standard Guidelines</h6>
 
                                 <h4>Installation of Computing Infrastructure </h4>
                                 <p>

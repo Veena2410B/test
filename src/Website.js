@@ -34,15 +34,8 @@ import MonitoringEvaluation from './components/pages/guidelines/monitoringEvalua
 import ClosureSignOff from './components/pages/guidelines/closureSignOff';
 import AccessingComplianceExistingSystem from './components/pages/guidelines/accessingComplianceExistingSystem';
 import Home from './components/pages/Home';
-import Modal from './components/layout/modal/Modal';
-
 import Home2 from './components/pages/Home2';
 import Test from './components/pages/Test';
-
-import {ThroughProvider} from 'react-through';
-
-
-
 
 /* import './components/layout/style.css'; 
  */
@@ -84,19 +77,9 @@ class Website extends Component {
             <Route path="/guidelines/MonitoringEvaluation" component={MonitoringEvaluation} />
             <Route path="/guidelines/ClosureSignOff" component={ClosureSignOff} />
             <Route path="/guidelines/AccessingComplianceExistingSystem" component={AccessingComplianceExistingSystem} />
-
-
             <Route path="/home2" component={Home2} />
-
             <Route path="/test" component={Test} />
-
-
             <Footer />
-
-            
-
-
-
 
           </div>
         </div>

@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './Modal.css';
 
 let dialogStyle = {
@@ -11,12 +11,12 @@ let dialogStyle = {
     top: '50%',
     transform: 'translate(-50%,-50%)',
     zIndex: '999',
-    backgroundColor: '#4CAF50', opacity:'0.96',
+    backgroundColor: '#4CAF50', opacity: '0.96',
     padding: '10px 20px 40px',
     borderRadius: '8px',
     display: 'flex',
     flexDirection: 'column',
-      
+
 };
 
 let buttonStyle = {
@@ -30,10 +30,6 @@ let buttonStyle = {
     fontWeight: 'bold',
     alignSelf: 'flex-end',
     backgroundColor: '#4CAF50',
-
-     
-
-
 };
 
 class Modal extends Component {
@@ -41,23 +37,18 @@ class Modal extends Component {
 
         let modal = (
             <div style={dialogStyle}>
-            <div> {this.props.children} </div>
-            <button style={buttonStyle} onClick={this.props.onClose}>Close</button>
-
-
-        </div>
+                <div> {this.props.children} </div>
+                <button style={buttonStyle} onClick={this.props.onClose}>Close</button>
+            </div>
         );
-
-
-        if (! this.props.isOpen) {
+        if (!this.props.isOpen) {
             modal = null;
         }
-        return(
-          <div>
-              {modal}
-          </div>
+        return (
+            <div>
+                {modal}
+            </div>
         );
-
     }
 }
 

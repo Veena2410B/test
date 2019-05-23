@@ -1,6 +1,5 @@
 import React from 'react'
 import { Spring } from 'react-spring/renderprops'
-import {Transition, animate} from "react-spring"
 
 
 

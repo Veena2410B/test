@@ -1,10 +1,14 @@
 import React from 'react'
 import ListGroup from 'react-bootstrap/ListGroup'
 
+import { Picture } from 'react-responsive-picture';
+import fig7 from '../../../../public/images/Fig7-PatientBillingProcess.png'; 
+
+
 
 export default function PatientBillingProcess() {
   return (
-    <div>
+<div align="center">
             <h1>Patient Billing Process</h1>
 
             <p>Health facility billing is a process to obtain payments for services and items rendered by the Health facility. The Health facility billing process begins when a patient arrives at the Health facility for diagnosis and treatment of injury, illness, diseases, or any other health condition. Patient care services and items provided during the patient stay are recorded on the patients account. Charges are posted to patients account by various departments. When patient leaves the Health facility, all information and charges are prepared for billing. Refer Figure 7.
@@ -23,8 +27,8 @@ export default function PatientBillingProcess() {
 </ListGroup>
  </p>
                                                 
-{/*                                                 <img src="assets/images/figure_7.png">
- */}
+ <img src={fig7} alt="Patient Billing Process Map" className="Fig7-PatientBillingProcess.png"/> 
+
  <h3>Procedures for Patient Billing Process</h3>
  <p>To ensure services rendered in a health facility are properly charged to recover the incurred costs the following procedures should be followed:-
  <ListGroup>

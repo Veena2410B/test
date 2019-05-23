@@ -1,10 +1,13 @@
 import React from 'react'
 import ListGroup from 'react-bootstrap/ListGroup'
+import { Picture } from 'react-responsive-picture';
+import fig2 from '../../../../public/images/Fig2-PatientRegProcess.png'; 
+
 
 
 export default function PatientRegistration() {
   return (
-    <div>
+<div align="center">
  <h1>Patient Registration</h1>
  <p>Patient registration process involves activities such as capturing of accurate demographic details for new patients, updating of the information for follow up patients, creating correct clinical patient record depending on the nature of health problem and deciding on the required mechanism of payment of bills. Refer Figure 2.
 </p>
@@ -22,8 +25,10 @@ export default function PatientRegistration() {
 
 </p>
 
-{/*                                                 <img src="assets/images/figure_2.png">
- */}
+            <img src={fig2} alt="Patient Registration Process Map" className="responsive"/>        
+
+
+
 <h3>Procedures</h3>
 <p>
 At minimum patient registration process should have the following procedures:

@@ -13,8 +13,28 @@ export class MenuGuidelines extends Component {
 <br></br>
 
 <div>
+
+<h2>Implementing The iHFeMS: Guidelines</h2>
+
+<p>Part C presents the minimum requirements and standards that the iHFeMS must meet to
+                              ensure
+                              that it create the value and the utility to its stakeholders. However, meeting the
+                              above-mentioned
+                              requirements alone does not guarantee successful implementation and use of the
+                              iHFeMS in a Health
+                              facility. Therefore in this part we provide a set of guidelines to ensure successful
+                              implementation and
+                              use of the iHFeMS.
+                              <br></br>
+                              Activities related to the implementation and use of iHFeMS in a Health facility can
+                              be grouped into
+                              three main phases. They are planning, deployment, and maintenance and support. In
+                              the following
+                              sections, a set of activities and guidelines is presented for each of the phases.
+                          </p>
+
 <Link to="/guidelines/implementing">    
-<Button size="lg" variant="outline-success" >Implementing The iHFeMS: Guidelines</Button>
+<Button size="lg" variant="outline-success" >Implementing iHFeMS</Button>
 </Link> 
 </div>
 

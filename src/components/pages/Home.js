@@ -3,6 +3,8 @@ import Card from 'react-bootstrap/Card';
 import guidelinefrontpage from '../../../public/images/guidelinefrontpage.png'; 
 import { Link } from 'react-router-dom';
 
+import { useSpring, animated} from 'react-spring'
+
 
 class Home extends Component {
   render() {
@@ -12,7 +14,7 @@ class Home extends Component {
 
         <div className="c">
 
-        <img src={guidelinefrontpage} />        
+        <img src={guidelinefrontpage}  className="responsive"/>        
         <br></br>
         <br></br>
 <Card bg="dark" text="white" >

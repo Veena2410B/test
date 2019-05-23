@@ -3,6 +3,7 @@ import './App.css';
 import './components/layout/style.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './components/layout/Header';
+import Footer from './components/layout/Footer';
 import Navigation from './components/layout/Navigation';
 import MenuBackground from './components/pages/MenuBackground';
 import MenuBusinessProcess from './components/pages/MenuBusinessProcess';
@@ -36,6 +37,10 @@ import Home from './components/pages/Home';
 import Modal from './components/layout/modal/Modal';
 
 import Home2 from './components/pages/Home2';
+import Test from './components/pages/Test';
+
+import {ThroughProvider} from 'react-through';
+
 
 
 
@@ -82,6 +87,16 @@ class Website extends Component {
 
 
             <Route path="/home2" component={Home2} />
+
+            <Route path="/test" component={Test} />
+
+
+            <Footer />
+
+            
+
+
+
 
           </div>
         </div>

@@ -1,10 +1,13 @@
 import React from 'react'
 import ListGroup from 'react-bootstrap/ListGroup'
 
+import { Picture } from 'react-responsive-picture';
+import fig6 from '../../../../public/images/Fig6-DispensingProcess.png'; 
+
 
 export default function DispensingProcess() {
   return (
-    <div>
+<div align="center">
  <h1>Dispensing Process</h1>
  <p>The dispensing business process is a high-level and generic process designed to cover the full spectrum of health-related products including medicines, vaccines and other medical supplies. Dispensing begins with a client encounter and a determination of the type(s) of medication, which the individual needs. If the medicines are available and in the correct quantity and quality, they will be dispensed to the individual and the client’s record will be updated with appropriate information. This business process may trigger a scheduling process to inform the client of their next visit. Refer Figure 6.
 
@@ -19,8 +22,8 @@ export default function DispensingProcess() {
 </ListGroup>
  </p>
 
-{/*                                                 <img src="assets/images/figure_6.png">
- */}
+ <img src={fig6} alt="Dispensing Process Map" className="Responsive"/> 
+
  <h3>Procedures for Dispensing Process</h3>
 <p>
 In order to effective dispensing of right quantity and quality of medicine to the right client with right information for proper use the following procedures should be

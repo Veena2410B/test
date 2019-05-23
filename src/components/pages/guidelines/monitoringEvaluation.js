@@ -1,4 +1,6 @@
 import React from 'react'
+import ListGroup from 'react-bootstrap/ListGroup'
+
 
 export default function monitoringEvaluation() {
   return (
@@ -42,16 +44,15 @@ export default function monitoringEvaluation() {
 
                                 <h3>Standard Guidelines</h3>
                                 <p>
-                                    SG1 Monitoring and Evaluation shall run throughout the life span of the iHFeMS
-                                    implementation
-                                    project
-                                    <br></br>SG2 Health facilities shall develop an M & E plan during the planning phase
-                                    as an integral component
-                                    of the iHFeMS implementation work plan.
-                                    <br></br>SG3 Health facilities shall assess whether implementation activities have
-                                    been performed as intended,
-                                    and the system is functioning as expected.
-                                    <br></br>SG4 Health facility shall measure the effects of the iHFeMS, by assessing
+                                <ListGroup>
+  <ListGroup.Item>SG1 Monitoring and Evaluation shall run throughout the life span of the iHFeMS implementation project
+</ListGroup.Item>
+  <ListGroup.Item>SG2 Health facilities shall develop an M & E plan during the planning phase as an integral component of the iHFeMS implementation work plan.
+</ListGroup.Item>
+  <ListGroup.Item>SG3 Health facilities shall assess whether implementation activities have been performed as intended, and the system is functioning as expected.
+</ListGroup.Item>
+  <ListGroup.Item>
+  SG4 Health facility shall measure the effects of the iHFeMS, by assessing
                                     its impact or outcome
                                     including:
                                 <ul>
@@ -63,24 +64,36 @@ export default function monitoringEvaluation() {
                                     <li>Optimize iHFeMS performance and operations</li>
 
                                 </ul>
+  </ListGroup.Item>
+</ListGroup>
+
+
                                 </p>
 
                                 <h3>Procedures</h3>
                                 <p>
+
+                                <ListGroup>
+  <ListGroup.Item>
                                     P1. Develop an M&E plan describing:
                                 <ul>
                                     <li>What will be monitored and/or evaluated</li>
                                     <li>What data are needed and will be collected</li>
                                     <li>How data will be used</li>
                                     <li>How M&E activities will be managed and supported</li>
-                                </ul>
+                                </ul></ListGroup.Item>
+  <ListGroup.Item>P2. Develop a monitoring toolkit (methodologies, tools, and analysis plan)
+</ListGroup.Item>
+  <ListGroup.Item>P3. Carry out the M & E exercise based on the plan and the implementation phase
+</ListGroup.Item>
+  <ListGroup.Item>P4. Make use of monitoring findings
+</ListGroup.Item>
+  <ListGroup.Item>P5. Take action and document lessons
+</ListGroup.Item>
+  <ListGroup.Item>P6. Submit monitoring & evaluation report to the relevant authorities.
 
-                                P2. Develop a monitoring toolkit (methodologies, tools, and analysis plan)
-                                <br></br>P3. Carry out the M & E exercise based on the plan and the implementation phase
-                                <br></br>P4. Make use of monitoring findings
-                                <br></br>P5. Take action and document lessons
-                                <br></br>P6. Submit monitoring & evaluation report to the relevant authorities.
-                                </p>
+</ListGroup.Item>
+</ListGroup></p>
 
       
     </div>

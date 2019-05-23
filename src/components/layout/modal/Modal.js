@@ -11,7 +11,7 @@ let dialogStyle = {
     top: '50%',
     transform: 'translate(-50%,-50%)',
     zIndex: '999',
-    backgroundColor: '#4CAF50',
+    backgroundColor: '#4CAF50', opacity:'0.96',
     padding: '10px 20px 40px',
     borderRadius: '8px',
     display: 'flex',

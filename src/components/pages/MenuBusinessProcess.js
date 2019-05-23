@@ -6,6 +6,8 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Picture } from 'react-responsive-picture';
+import fig1 from '../../../public/images/Fig1-HealthFacilityBusinessProcessFramework.png'; 
 
 
 export default function MenuBusinessProcess() {
@@ -106,7 +108,7 @@ export default function MenuBusinessProcess() {
 work practices of existing business processes within the Health facility setting in order to maximize the
 value of the computerization process.
 <br></br>
-IMAGE HERE
+<img src={fig1} alt="Figure 1: Health Facility Business Process Framework" className="responsive"/>        
 <br></br>
 Figure 1: Presents an overview of the Health facility business processes framework, which includes
 business processes classified as core processes, support processes and back office processes. The

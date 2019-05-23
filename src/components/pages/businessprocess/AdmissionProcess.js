@@ -1,10 +1,14 @@
 import React from 'react'
 import ListGroup from 'react-bootstrap/ListGroup'
 
+import { Picture } from 'react-responsive-picture';
+import fig3 from '../../../../public/images/Fig3-AdmissionProcess.png'; 
+
+
 
 export default function AdmissionProcess() {
   return (
-    <div>
+<div align="center">
 
       
       <h1>Admission Process</h1>
@@ -16,8 +20,8 @@ patient can be received at various departments or units in the Health facility s
  or inpatient. Nurses will register the patient in the registration books or check from the computer if
 the patient is already registered in the specific ward. Refer Figure 3.</p>
 
-{/*                                                 <img src="assets/images/figure_3.png">
- */}
+<img src={fig3} alt="Admission Process Map" className="responsive"/> 
+
 <h3>Procedures</h3>
 <p>
  In order to improve patient admission process the following procedures should followed:

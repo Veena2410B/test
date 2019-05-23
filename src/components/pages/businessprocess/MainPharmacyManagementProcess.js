@@ -2,16 +2,19 @@
 import React from 'react'
 import ListGroup from 'react-bootstrap/ListGroup'
 
+import { Picture } from 'react-responsive-picture';
+import fig4 from '../../../../public/images/Fig4-MainInventoryProcess.png'; 
+
+
 
 export default function MainPharmacyManagementProcess() {
   return (
-    <div>
+<div align="center">
       <h1>Main Pharmacy Management Process</h1>
       <p>The central pharmacy management process activities include requisition, purchasing, receiving, checking and storing of medical supplies. Refer to Figure 4.
 </p>
+<img src={fig4} alt="Main Inventory Management Process Map" className="Fig4-MainInventoryProcess.png"/> 
 
-      {/*                                                 <img src="assets/images/figure_4.png">
- */}
       <h3>Procedures for Central Inventiry Management Process</h3>
       <p>
         To ensure the availability of the right medication at the right time, the right dosage, at the minimum

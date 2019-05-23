@@ -1,4 +1,8 @@
 import React from 'react'
+import ListGroup from 'react-bootstrap/ListGroup'
+import Table from 'react-bootstrap/Table'
+
+
 
 export default function InfrastructureHumanResourceRequirements() {
   return (
@@ -35,23 +39,18 @@ export default function InfrastructureHumanResourceRequirements() {
                                     friendly room for housing ICT infrastructure and systems. The hosting environment should meet the
                                     following minimum requirements:
                                     <br></br>
-                                    SG1. It must have reliable primary and backup power supply. Backup power supply solutions may
-                                    include uninterrupted power supply (UPS), Inverter with battery bank, generator or solar
-                                    power system enough to power all servers and network devices for at least 8 hours (preferably
-                                    12 hrs.)
-                                    <br></br>
-                                    SG2. It must have proper security including physical access controls and all visits must be recorded.
-                                    Logbook or an automatic access control system should be registering all visits to the server
-                                    room/ Data Center.
-                                    <br></br>
-                                    SG3. The hosting environment must be temperature controlled with air conditioner and well
-                                    furnished. Furthermore, it must be free from dust, water leaks and humidity.
-                                    <br></br>
-                                    SG4. The servers should be rack mountable servers installed in lockable rack cabinets, together with
-                                    required backup storage.
-                                    SG5. The hosting environment must have fire extinguishers and fire detection systems (alarms)
 
-                                </p>
+                                    <ListGroup>
+  <ListGroup.Item>SG1. It must have reliable primary and backup power supply. Backup power supply solutions may include uninterrupted power supply (UPS), Inverter with battery bank, generator or solar power system enough to power all servers and network devices for at least 8 hours (preferably 12 hrs.)
+</ListGroup.Item>
+  <ListGroup.Item>SG2. It must have proper security including physical access controls and all visits must be recorded. Logbook or an automatic access control system should be registering all visits to the server room/ Data Center.
+</ListGroup.Item>
+  <ListGroup.Item>SG3. The hosting environment must be temperature controlled with air conditioner and well furnished. Furthermore, it must be free from dust, water leaks and humidity.
+</ListGroup.Item>
+  <ListGroup.Item>SG4. The servers should be rack mountable servers installed in lockable rack cabinets, together with required backup storage. </ListGroup.Item>
+  <ListGroup.Item>SG5. The hosting environment must have fire extinguishers and fire detection systems (alarms)</ListGroup.Item>
+</ListGroup>
+</p>
 
                                 <p>
                                     <b>Network infrastructure shall be in place to support iHFeMS</b>
@@ -61,18 +60,17 @@ export default function InfrastructureHumanResourceRequirements() {
                                     includes local area network, wide area networks and Internet connectivity. The network and Internet
                                     connectivity should meet the following requirements:
                                     <br></br>
-                                    SG1. Network drawings should be well updated and available at all times for reference.
-                                    <br></br>
-                                    SG2. Local area network (LAN) should have well structured cabling and well labeled considering
-                                    quality cabling design. The design should separate access network from the backbone network
-                                    that connects buildings.
-                                    <br></br>
-                                    SG3. The Wide Area Network (WAN) / Internet connectivity should have the required speed capable
-                                    of supporting the business requirements. Depending on the deployment architecture used, a
-                                    backup or redundant connection is required.
-                                    <br></br>
-                                    SG4. The LAN connection to the Internet must be restricted by the firewall.
-                                </p>
+
+                                    <ListGroup>
+  <ListGroup.Item>SG1. Network drawings should be well updated and available at all times for reference.
+</ListGroup.Item>
+  <ListGroup.Item>SG2. Local area network (LAN) should have well structured cabling and well labeled considering quality cabling design. The design should separate access network from the backbone network that connects buildings.
+</ListGroup.Item>
+  <ListGroup.Item>SG3. The Wide Area Network (WAN) / Internet connectivity should have the required speed capable of supporting the business requirements. Depending on the deployment architecture used, a backup or redundant connection is required.
+</ListGroup.Item>
+  <ListGroup.Item>SG4. The LAN connection to the Internet must be restricted by the firewall.</ListGroup.Item>
+</ListGroup>
+ </p>
 
                                 <p>
                                     <b>There shall be computer workstations/terminals for end users</b>
@@ -147,7 +145,60 @@ export default function InfrastructureHumanResourceRequirements() {
                                     requirements based on these minimum requirements should be done.
                                 </p>
                                 <br></br>
-                                TABLE HERE! Table 3.13: Recommended ICT Staff
+
+                                <p>Recommended ICT staffing
+                                  <Table>
+                                    <thead>
+                                    <tr>
+      <th>S/N</th>
+      <th>JOB TITLE</th>
+      <th>ZONAL</th>
+      <th>REGIONAL</th>
+      <th>DISTRICT</th>
+
+    </tr>
+    </thead>
+
+    <tbody>
+<tr>
+    <td>1</td>
+    <td>System Analyst</td>
+    <td>3</td>
+    <td>2</td>
+    <td>1</td>
+</tr>
+
+<tr>
+    <td>2</td>
+    <td>System/Network Administrator</td>
+    <td>4</td>
+    <td>2</td>
+    <td>1</td>
+</tr>
+
+
+<tr>
+    <td>3</td>
+    <td>ICT Support Technician</td>
+    <td>8</td>
+    <td>6</td>
+    <td>4</td>
+</tr>
+
+
+<tr>
+    <td>4</td>
+    <td>Data Entry Clerk/Computer Operator</td>
+    <td>10</td>
+    <td>5</td>
+    <td>3</td>
+</tr>
+
+
+</tbody>
+                                    
+                                  </Table>
+                                </p>
 
     </div>
   )

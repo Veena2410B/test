@@ -1,10 +1,14 @@
 import React from 'react'
 import ListGroup from 'react-bootstrap/ListGroup'
 
+import { Picture } from 'react-responsive-picture';
+import fig5 from '../../../../public/images/Fig5-MedicalSuppliesDistributionProcess.png'; 
+
+
 
 export default function MedicalSuppliesDistributionProcess() {
   return (
-    <div>
+<div align="center">
             <h1>Medical Supplies Distribution Proess</h1>
 
             <p>The distribution process is triggered by a requisition. Individual requisitions can be received from
@@ -13,8 +17,8 @@ export default function MedicalSuppliesDistributionProcess() {
                                                     Allocation of stock for a requisition can depend on stock status within the store, competing needs of
                                                     other service delivery, consumption patterns, or budgetary status. Refer Figure 5.</p>
 
-{/*                                                 <img src="assets/images/figure_5.png">
- */}
+                                                    <img src={fig5} alt="Main Supplies Distribution Process Map" className="Fig5-MedicalSuppliesDistributionProcess.png"/> 
+
                                                 <h3>Procedures for Medical Supplies Distribution Process</h3>
 
                                                 <p>

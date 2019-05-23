@@ -1,4 +1,6 @@
 import React from 'react'
+import ListGroup from 'react-bootstrap/ListGroup'
+
 
 export default function StandardsInformationExchange() {
   return (
@@ -40,22 +42,24 @@ export default function StandardsInformationExchange() {
                                 <h3>Standard Guidelines</h3>
 
                                 <h4>iHFeMS shall support Data exchange (or messaging) standards</h4>
-                                <p>SG1. The iHFeMS must have the capability to transmit and receive a defined minimum set of
-                                    patient data via standardized HL7 messaging. Health Level 7 (HL7) is a flexible standard by
-                                    which various health care systems can communicate with each other; it is typically used for
-                                    transmission of patient level data.
-                                    <br></br>SG2. By using the HL7 the iHFeMS shall be able to exchange of information, data standards have to
-                                    be developed to ensure consistency of both structure and meaning of data between information
-                                    Guidelines and Standards for Integrated Health Facility Electronic Management Systems 37
-                                    systems. Standard formats require agreement both on format (syntax) and meaning (semantics).
-                                    Format is the order and structure of specific data fields, while meaning is expressed through the
-                                    choice of coding schemes, rules, and other constraints on content.</p>
+                                <p>
+                                <ListGroup>
+  <ListGroup.Item>SG1. The iHFeMS must have the capability to transmit and receive a defined minimum set of patient data via standardized HL7 messaging. Health Level 7 (HL7) is a flexible standard by which various health care systems can communicate with each other; it is typically used for transmission of patient level data.
+</ListGroup.Item>
+  <ListGroup.Item>SG2. By using the HL7 the iHFeMS shall be able to exchange of information, data standards have to be developed to ensure consistency of both structure and meaning of data between information Guidelines and Standards for Integrated Health Facility Electronic Management Systems 37 systems. Standard formats require agreement both on format (syntax) and meaning (semantics). Format is the order and structure of specific data fields, while meaning is expressed through the choice of coding schemes, rules, and other constraints on content.
+</ListGroup.Item>
+
+</ListGroup>
+
+</p>
 
                                 <h4>iHFeMS shall support coding standards</h4>
                                 <p>
-                                    SG1. The iHFeMS system should be able to build up the data for medical records using standard
-                                    the International Classification of Diseases (ICD) version 10. International Classification of
-                                    <br></br>Diseases (ICD) is a statistical classification system used to assign diagnostic and procedural
+                                <ListGroup>
+  <ListGroup.Item>SG1. The iHFeMS system should be able to build up the data for medical records using standard the International Classification of Diseases (ICD) version 10. International Classification of
+</ListGroup.Item>
+</ListGroup>
+ <br></br>Diseases (ICD) is a statistical classification system used to assign diagnostic and procedural
                                     codes in order to produce coded data for statistical analysis, epidemiology, reimbursement and
                                     resource allocation.
 
@@ -65,15 +69,15 @@ export default function StandardsInformationExchange() {
                                 <p>
                                     For information sharing between different systems to occur it requires data exchange standards for
                                     packaging and transmitting the data.
-                                    <br></br>SG1. The iHFeMS must be able to share data with other systems such as DHIS2, HRHIS, PACS,
-                                    financial systems etc. using data exchange standards /communication interfaces e.g. Application
-                                    Programming Interfaces (APIs) developed based on different technologies such as JSON, XML,
-                                    DXML etc.
-                                    <br></br>SG2. The system shall also be able to interface seamlessly with third party diagnostic devices such as
-                                    digital X-Rays, MRIs etc.
-                                    SG3. In addition to the above, Health Facilities should adhere to eGovernment related standards and
-                                    guidelines such as eGovernment Interoperability Framework (eGIF), Data Architecture etc.
-                                </p>
+
+
+                                    <ListGroup>
+  <ListGroup.Item>SG1. The iHFeMS must be able to share data with other systems such as DHIS2, HRHIS, PACS, financial systems etc. using data exchange standards /communication interfaces e.g. Application Programming Interfaces (APIs) developed based on different technologies such as JSON, XML, DXML etc.
+</ListGroup.Item>
+  <ListGroup.Item>SG2. The system shall also be able to interface seamlessly with third party diagnostic devices such as digital X-Rays, MRIs etc. </ListGroup.Item>
+  <ListGroup.Item>SG3. In addition to the above, Health Facilities should adhere to eGovernment related standards and guidelines such as eGovernment Interoperability Framework (eGIF), Data Architecture etc.</ListGroup.Item>
+</ListGroup>
+</p>
 
     </div>
   )

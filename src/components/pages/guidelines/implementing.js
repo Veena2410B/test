@@ -1,26 +1,13 @@
 import React from 'react'
+import ListGroup from 'react-bootstrap/ListGroup'
+import Table from 'react-bootstrap/Table'
+
 
 export default function implementing() {
   return (
     <div>
-      <h2>Implementing The iHFeMS: Guidelines</h2>
+      <h2>Implementing iHFeMS</h2>
 
-      <p>Part C presents the minimum requirements and standards that the iHFeMS must meet to
-                                    ensure
-                                    that it create the value and the utility to its stakeholders. However, meeting the
-                                    above-mentioned
-                                    requirements alone does not guarantee successful implementation and use of the
-                                    iHFeMS in a Health
-                                    facility. Therefore in this part we provide a set of guidelines to ensure successful
-                                    implementation and
-                                    use of the iHFeMS.
-                                    <br></br>
-                                    Activities related to the implementation and use of iHFeMS in a Health facility can
-                                    be grouped into
-                                    three main phases. They are planning, deployment, and maintenance and support. In
-                                    the following
-                                    sections, a set of activities and guidelines is presented for each of the phases.
-                                </p>
 
                                 <h3>Phase 1: Planning </h3>
 
@@ -80,56 +67,100 @@ export default function implementing() {
     Elderly and Children who is the Executive Sponsor of this initiative.
 </p>
 
-<h6>Standard Guidelines:</h6>
+<h6>Standard Guidelines</h6>
 <p>
-    <br></br>SG1. The implementation of the iHFeMS shall be transparently managed and
-    inclusive to ensure
-    broad-based buy-in from a range of stakeholders throughout the various phases of the
-    implementation.
-    <br></br>SG2. All major stakeholders shall be in agreement as to who will assume
-    responsibility for funding
-    and carrying out tasks, and who will have the authority to make decisions.
-    <br></br>SG3. Each Health facility shall form an iHFeMS steering committee to provide
-    high-level oversight
-    and provide a conduit between the implementation team, the Health facility
-    officials, Ministry
-    of Health, Community Development, Gender, Elderly and Children, PO-RALG, and other
-    stakeholders. The steering committee members shall consists of the Health facility
-    management
-    team and other individuals that are identified as important during the iHFeMS
-    implementation
-    process.
-    <br></br>SG4. Each Health facility shall establish an iHFeMS implementation team for
-    daily operations of
-    the system implementation and operations
-    <br></br>SG5. Each Health facility shall appoint implementation team leader who will
-    be responsible to daily
-    management and supervision of the implementation activities and report to the
-    Medical officer
-    In charge and steering committee
-    <br></br>SG6. The steering committee shall conduct a thorough review of each phase of
-    implementation
-    <br></br>SG7. The Ministry of Health, Community Development, Gender, Elderly and
-    Children shall
-    appoint NeHSC Coordinator to oversee all activities and provide technical advice to
-    the
-    respective Health facility on matters related to the iHFeMS implementation and use.
-    <br></br> SG8. In all phases of the iHFeMS implementation, the Health facility
-    implementation team shall
-    work closely with the NeHSC Coordinator.
-    <br></br>SG9. A quality assurance officer shall be appointed in the Health facility
-    and shall be responsible for
-    quality assurance of the iHFeMS project and shall work with the implementation team
-    and all
-    the respective Health facility departments involved in the project.
-    <br></br>SG10. For self-sustainability of iHFeMS, health facility must dedicate a
-    certain amount for system
-    maintenance and other ICT Investments.
-    <br></br>SG11. The Ministry of Health, Community Development, Gender, Elderly and
-    Children shall
-    continue with coordination and supervision roles to make sure that the implemented
-    systems
-    doesn’t compromise with quality of health service delivery.
+
+<ListGroup>
+  <ListGroup.Item>SG1. The implementation of the iHFeMS shall be transparently managed and inclusive to ensure broad-based buy-in from a range of stakeholders throughout the various phases of the implementation.
+</ListGroup.Item>
+  <ListGroup.Item>SG2. All major stakeholders shall be in agreement as to who will assume responsibility for funding and carrying out tasks, and who will have the authority to make decisions.
+</ListGroup.Item>
+  <ListGroup.Item>SG3. Each Health facility shall form an iHFeMS steering committee to provide high-level oversight and provide a conduit between the implementation team, the Health facility officials, Ministry of Health, Community Development, Gender, Elderly and Children, PO-RALG, and other stakeholders. The steering committee members shall consists of the Health facility management team and other individuals that are identified as important during the iHFeMS implementation process.
+</ListGroup.Item>
+  <ListGroup.Item>SG4. Each Health facility shall establish an iHFeMS implementation team for daily operations of the system implementation and operations
+</ListGroup.Item>
+  <ListGroup.Item>SG5. Each Health facility shall appoint implementation team leader who will be responsible to daily management and supervision of the implementation activities and report to the Medical officer In charge and steering committee
+</ListGroup.Item>
+  <ListGroup.Item>SG6. The steering committee shall conduct a thorough review of each phase of implementation
+</ListGroup.Item>
+  <ListGroup.Item>SG7. The Ministry of Health, Community Development, Gender, Elderly and Children shall appoint NeHSC Coordinator to oversee all activities and provide technical advice to the respective Health facility on matters related to the iHFeMS implementation and use.
+</ListGroup.Item>
+  <ListGroup.Item>SG8. In all phases of the iHFeMS implementation, the Health facility implementation team shall work closely with the NeHSC Coordinator.
+</ListGroup.Item>
+  <ListGroup.Item>SG9. A quality assurance officer shall be appointed in the Health facility and shall be responsible for quality assurance of the iHFeMS project and shall work with the implementation team and all the respective Health facility departments involved in the project.
+</ListGroup.Item>
+  <ListGroup.Item>SG10. For self-sustainability of iHFeMS, health facility must dedicate a certain amount for system maintenance and other ICT Investments.
+</ListGroup.Item>
+  <ListGroup.Item>SG11. The Ministry of Health, Community Development, Gender, Elderly and Children shall continue with coordination and supervision roles to make sure that the implemented systems doesn’t compromise with quality of health service delivery.
+</ListGroup.Item>
+</ListGroup>
+<br></br>
+
+iHFeMS Health Facility Level Implementation Team:
+
+<Table>
+
+  <thead>
+  <tr>
+      <th>Role</th>
+      <th>Competencies</th>
+      </tr>
+
+  </thead>
+
+<tbody>
+<tr>
+    <td>iHFeMS Implementation Lead</td>
+    <td>
+    Acts as the Champion at a Health facility level
+<br></br>Project Management
+<br></br>Budgeting
+<br></br>Communication
+<br></br>Activity Coordinator at the Health facility
+level
+    </td>
+    </tr>
+
+    <tr>
+    <td>IT Systems Analyst</td>
+    <td>Requirements gathering, analysis, and
+recommendation
+<br></br>Issue and change request analysis and
+prioritization</td>
+    </tr>
+
+    <tr>
+    <td>Procurement</td>
+    <td>Procurement of software, infrastructure and
+other hardware
+<br></br>Contract Negotiations</td>
+    </tr>
+
+    <tr>
+    <td>System/Network Administrator</td>
+    <td>Installation, Configuration and Continuous
+troubleshooting of iHFeMS network and
+systems</td>
+    </tr>
+
+    <tr>
+    <td>IT Technician</td>
+    <td>Dealing with issues and request from end users</td>
+    </tr>
+
+    <tr>
+    <td>IHFEMS Trainers</td>
+    <td>Training planning
+<br></br>Training need assessment
+<br></br>Conduct training
+<br></br>Perform training evaluation</td>
+    </tr>
+
+</tbody>
+
+
+</Table>
+
 </p>
 
 <h4>Budgeting</h4>
@@ -149,6 +180,60 @@ export default function implementing() {
     running an iHFeMS as well as longer-term issues of maintenance and support are
     significant as well.</p>
 
+    <p>
+      <Table>
+      <tbody>
+<tr>
+    <td>Initial Cost</td>
+    <td>
+
+      <ul>
+        <li>Infrastructure (Data center, communication network, computers,
+Internet)</li>
+        <li>Software</li>
+        <li>Training</li>
+        <li>Consultants</li>
+      </ul>
+
+    </td>
+    </tr>
+
+    <tr>
+    <td>Ongoing Costs</td>
+    <td>
+    <ul>
+        <li>Enhancements</li>
+        <li>Training of replacement staff members</li>
+        <li>Evaluations</li>
+      </ul>
+
+    </td>
+    </tr>
+
+    <tr>
+    <td>Maintenance and 
+Support</td>
+    <td>
+    <ul>
+        <li>Equipment maintenance: Care of equipment (computers, touch
+screens, keyboards, card readers, etc.)</li>
+        <li>Corrective maintenance: Fixing bugs in code</li>
+        <li>Adaptive maintenance: Adapting the software to new environments</li>
+        <li>Perfective maintenance: Updating the software according to changes in
+user requirements</li>
+        <li>Preventive maintenance: Updating documentation and making the
+software more maintainable.</li>
+      </ul>
+
+    </td>
+    </tr>
+
+
+
+    </tbody>
+      </Table>
+    </p>
+
     <h4>Payment Modalities</h4>
     <p>
                                     TCO is a financial estimate of both the monetary impact and human resource impact of
@@ -163,25 +248,129 @@ export default function implementing() {
                                     cost of Ownership
                                     (TCO):
                                     <br></br>
-                                    SG1. There must be mutual agreement between the health facility owner and the
-                                    service provider on
-                                    the TCO payment mode, either through one time or installment. The TCO must be
-                                    jointly
-                                    established using the following criteria/parameters.
-                                    <br></br>
-                                    SG2. Incase of Payment by installment the amount and both parties must mutually
-                                    agree with
-                                    timeframe.
-                                    <br></br>
-                                    SG3. Any commission paid to the vendor from revenue collections must be the payment,
-                                    which compensates the cost incurred by the vendor during the implementation and/or
-                                    operationalization of the system.
-                                    <br></br>
-                                    SG4. Public health facilities must enter into agreement with one of the Government
-                                    pre-qualified
-                                    service providers who have been approved by the National eHealth Steering Committee
-                                    (NeHSC).
-                                    </p>
+                                    <ListGroup>
+  <ListGroup.Item>SG1. There must be mutual agreement between the health facility owner and the service provider on the TCO payment mode, either through one time or installment. The TCO must be jointly established using the following criteria/parameters.
+
+<Table>
+  <thead>
+  <tr>
+      <th>Requirement/Cost Element</th>
+      <th>Vendor Cost</th>
+      <th>Health Facility Cost</th>
+      </tr>
+  </thead>
+
+  <tbody>
+
+  <tr>
+    <td>1. Investment Cost (One time Cost):</td>
+    <td></td>
+     <td></td>
+     </tr>
+
+     <tr>
+    <td>a. Hardware</td>
+    <td></td>
+     <td></td>
+     </tr>
+
+     <tr>
+    <td>b. Software</td>
+    <td></td>
+     <td></td>
+     </tr>
+
+     <tr>
+    <td>c. Training cost</td>
+    <td></td>
+     <td></td>
+     </tr>
+
+     <tr>
+    <td>d. Installation cost</td>
+    <td></td>
+     <td></td>
+     </tr>
+
+     <tr>
+    <td>2. Operation and Maintenance:</td>
+    <td></td>
+     <td></td>
+     </tr>
+
+     <tr>
+    <td>a. Hardware servicing</td>
+    <td></td>
+     <td></td>
+     </tr>
+
+     <tr>
+    <td>b. Network – e.g. Bandwidth</td>
+    <td></td>
+     <td></td>
+     </tr>
+
+     <tr>
+    <td>c. Software License</td>
+    <td></td>
+     <td></td>
+     </tr>
+
+     <tr>
+    <td>d. Users support</td>
+    <td></td>
+     <td></td>
+     </tr>
+
+     <tr>
+    <td>e. Hardware License (Routers, Switches</td>
+    <td></td>
+     <td></td>
+     </tr>
+
+     <tr>
+    <td>f. Escrow account</td>
+    <td></td>
+     <td></td>
+     </tr>
+
+     <tr>
+    <td>3. Other Costs:</td>
+    <td></td>
+     <td></td>
+     </tr>
+
+     <tr>
+    <td>a. New Requirements (like new modules)</td>
+    <td></td>
+     <td></td>
+     </tr>
+
+     <tr>
+    <td>b. Extension of Access Points</td>
+    <td></td>
+     <td></td>
+     </tr>
+
+     <tr>
+    <td>c. Hardware refreshing (after 5 years of
+operation)</td>
+    <td></td>
+     <td></td>
+     </tr>
+
+
+  </tbody>
+</Table>
+
+</ListGroup.Item>
+  <ListGroup.Item>SG2. Incase of Payment by installment the amount and both parties must mutually agree with timeframe.
+</ListGroup.Item>
+  <ListGroup.Item>SG3. Any commission paid to the vendor from revenue collections must be the payment, which compensates the cost incurred by the vendor during the implementation and/or operationalization of the system.
+</ListGroup.Item>
+  <ListGroup.Item>SG4. Public health facilities must enter into agreement with one of the Government pre-qualified service providers who have been approved by the National eHealth Steering Committee (NeHSC).
+</ListGroup.Item>
+</ListGroup></p>
 
 
                                     <h4>Implementation Work Plan</h4>
@@ -310,20 +499,63 @@ export default function implementing() {
                                     following:
                                     <br></br>
 
-                                    1) Describe the current workflows and any changes needed for improvement
-                                    <br></br>2) Identify existing electronic systems for potential data migration and
-                                    potential dependencies and
-                                    interactions
-                                    <br></br>3) Existing hardware that can be used
-                                    <br></br> 4) Infrastructure assessment (i.e. networking capacity, power, cooling system,
-                                    physical security)
-                                    <br></br> 5) Identification of staff
-                                    <br></br> 6) Anticipation usage of the system
-                                    <br></br> 7) Planning for computer placement
-                                    <br></br> 8) Training need
-                                    <br></br> 9) Any special consideration for the Health facility
+                                    <ListGroup>
+  <ListGroup.Item>1) Describe the current workflows and any changes needed for improvement
+</ListGroup.Item>
+  <ListGroup.Item>2) Identify existing electronic systems for potential data migration and potential dependencies and interactions
+</ListGroup.Item>
+  <ListGroup.Item>3) Existing hardware that can be used
+</ListGroup.Item>
+  <ListGroup.Item>4) Infrastructure assessment (i.e. networking capacity, power, cooling system, physical security)
+</ListGroup.Item>
+  <ListGroup.Item>5) Identification of staff
+</ListGroup.Item>
+  <ListGroup.Item>6) Anticipation usage of the system
+</ListGroup.Item>
+  <ListGroup.Item>7) Planning for computer placement
+</ListGroup.Item>
+  <ListGroup.Item>8) Training need
+</ListGroup.Item>
+  <ListGroup.Item>9) Any special consideration for the Health facility
+</ListGroup.Item>
 
-                                </p>
+</ListGroup>
+
+<br></br>
+
+<Table>
+  <tbody>
+  <tr>
+    <td>Role Involved</td>
+    <td>Responsible: Health facility management.
+<br></br>Helpers: Health facility implementation lead, IT Systems Analyst, staff
+<br></br>Acceptance: Health facility In charge
+<br></br>Inform: Health Facility Management, Councils, Region and Central
+steering committees.</td>
+    </tr>
+
+    <tr>
+    <td>Dependencies</td>
+    <td></td>
+    </tr>
+
+    <tr>
+    <td>Outputs and Impacts</td>
+    <td>Document: Health facility Implementation Readiness Assessment</td>
+    </tr>
+
+    <tr>
+    <td>Next step(s)</td>
+    <td>Implementation Analysis</td>
+    </tr>
+
+    <tr>
+    <td>Resources and Tools</td>
+    <td>Health facility Implementation Readiness Assessment Tool (Appendix C)</td>
+    </tr>
+  </tbody>
+</Table>
+ </p>
 
 
                                 <h6>Implementation Analysis</h6>
@@ -341,6 +573,42 @@ export default function implementing() {
                                     specification
                                     <li>Identify staff and create training plan</li>
                                 </ul>
+
+                                <Table>
+                                  <tbody>
+                                  <tr>
+    <td>Role Involved</td>
+    <td>Responsible: Health facility Management
+<br></br>Helpers: Health facility implementation lead, IT Systems Analyst, staff
+<br></br>Acceptance: Medical officer In charge
+<br></br>Inform: Health Facility Management, Councils, Region and Central
+steering committees.</td>
+    </tr>
+
+    <tr>
+    <td>Dependencies</td>
+    <td></td>
+    </tr>
+
+    <tr>
+    <td>Outputs and Impacts</td>
+    <td>Decision: Agreed workflow
+<br></br>Document: Computing Infrastructure Specification
+<br></br>Document: Training plan</td>
+    </tr>
+
+    <tr>
+    <td>Next step(s)</td>
+    <td>Computing Infrastructure Specification</td>
+    </tr>
+
+    <tr>
+    <td>Resources and Tools</td>
+    <td>Computing Infrastructure Recommendation</td>
+    </tr>
+                                  </tbody>
+                                </Table>
+
                                 </p>
 
                                 <h4>Procurement of Computing Infrastructure</h4>
@@ -348,7 +616,41 @@ export default function implementing() {
                                     infrastructure
                                     specification document from the implementation analysis task. Contracting for any
                                     installation should
-                                    be in this task as well.</p>
+                                    be in this task as well.
+                                    
+                                    <Table>
+                                      <tbody>
+                                      <tr>
+    <td>Role Involved</td>
+    <td>Responsible: Health facility management
+<br></br>Helpers: Procurement Officer
+<br></br>Acceptance: Health facility In charge
+<br></br>Inform: Health Facility Management, Councils, Region and Central
+steering committees.</td>
+    </tr>
+
+    <tr>
+    <td>Dependencies</td>
+    <td>Implementation analysis – Started
+<br></br>Computing Infrastructure specification - Finished</td>
+    </tr>
+
+    <tr>
+    <td>Outputs and Impacts</td>
+    <td>Action: Computing Infrastructure procured
+<br></br>Action: Installation Contract in place</td>
+    </tr>
+
+    <tr>
+    <td>Next step(s)</td>
+    <td>Computing Infrastructure Installation
+<br></br>Network and System Administration Training</td>
+    </tr>
+                                      </tbody>
+                                    </Table>
+
+
+                                    </p>
 
                                 <h4>Quality Assurance in Acquisition of iHFeMS and the Computing
                                     Infrastructure Equipment</h4>
@@ -383,43 +685,61 @@ export default function implementing() {
                                 </ul>
                                 </p>
 
-                                <h6>Responsibility</h6> <br></br>
+                                <h6>Responsibility</h6> 
+                                <p>
+                                  <Table>
+                                    <thead>
+                                    <tr>
+      <th>Responsible Person/Team</th>
+      <th>Responsibilities</th>
+      </tr>
+                                    </thead>
+
+                                    <tbody>
+                                    <tr>
+    <td>iHFeMS implementation team</td>
+    <td>
+    1. Confirm terms of reference
+<br></br>2. Ensure implementation of quality
+Standards in the acquisition process
+<br></br>3. Address any recommendation from quality assurance
+    </td>
+    </tr>
+
+
+    <tr>
+    <td>Quality Assurance Officer</td>
+    <td>1. Confirm terms of reference
+<br></br>2. Check compliance with
+Standards and guidelines
+<br></br>3. Report QA findings to the facility in-charge</td>
+    </tr>
+                                    </tbody>
+                                  </Table>
+                                </p>
                                 <h6>Procedure</h6>
                                 <p>
                                     The following quality standards should be considered for iHFeMS and the computing
                                     infrastructure
                                     equipment.
                                     <br></br>
-                                    P1. Prior to iHFeMS or any other software is acquired, there must be a formalized
-                                    requirements
-                                    specification document prepared based on the national iHFeMS standards and that will
-                                    be
-                                    signed off and approved.
-                                    <br></br>
-                                    P2. All off-the-shelf software identified for acquisition should satisfy the
-                                    formalized requirements
-                                    specification document and should ensure minimal customization where possible.
-                                    <br></br>
-                                    P3. It is highly recommended that vendors for off-the-shelf software should have
-                                    implemented the
-                                    software in at least one similar facility successfully and the reference should be
-                                    verifiable.
-                                    <br></br>
-                                    P4. The vendor should be able to offer support of the iHFeMS software post
-                                    implementation.
-                                    <br></br>
-                                    P5. Capacity building plan should be developed and approved in the acquisition
-                                    process to ensure
-                                    that internal staffs are capacitated to support the iHFeMS
-                                    <br></br>
-                                    P6. For all acquired hardware there must be requirements specified by the user
-                                    department which
-                                    will be signed off and approved
-                                    <br></br>
-                                    P7. All software and computing infrastructure equipment should have a warranty for a
-                                    specified
-                                    period of not less than 1 year
-                                </p>
+                                    <ListGroup>
+  <ListGroup.Item>P1. Prior to iHFeMS or any other software is acquired, there must be a formalized requirements specification document prepared based on the national iHFeMS standards and that will be signed off and approved.
+</ListGroup.Item>
+  <ListGroup.Item>P2. All off-the-shelf software identified for acquisition should satisfy the formalized requirements specification document and should ensure minimal customization where possible.
+</ListGroup.Item>
+  <ListGroup.Item>P3. It is highly recommended that vendors for off-the-shelf software should have implemented the software in at least one similar facility successfully and the reference should be verifiable.
+</ListGroup.Item>
+  <ListGroup.Item>P4. The vendor should be able to offer support of the iHFeMS software post implementation.
+</ListGroup.Item>
+  <ListGroup.Item>P5. Capacity building plan should be developed and approved in the acquisition process to ensure that internal staffs are capacitated to support the iHFeMS
+</ListGroup.Item>
+  <ListGroup.Item>P6. For all acquired hardware there must be requirements specified by the user department which will be signed off and approved
+</ListGroup.Item>
+  <ListGroup.Item>P7. All software and computing infrastructure equipment should have a warranty for a specified period of not less than 1 year
+</ListGroup.Item>
+</ListGroup>
+   </p>
 
                                 <h3>Phase 2: Deployment</h3>
                                 <p>Deployment of the iHFeMS includes the following activities: installation of the
@@ -450,6 +770,41 @@ export default function implementing() {
                                     and installed. Experts hired by the Health facility through a competitive tendering
                                     process should
                                     perform the installation.
+
+                                    <Table>
+                                      <tbody>
+                                      <tr>
+    <td>Role Involved</td>
+    <td>Responsible: Vendor
+<br></br>Helpers: Health facility implementation lead, IT Systems Analyst, System/
+<br></br>Network Administrator
+<br></br>Acceptance: Health facility In charge
+<br></br>Inform: Health Facility Management, Councils, Region and Central
+steering committees.</td>
+    </tr>
+
+    <tr>
+    <td>Dependencies</td>
+    <td>Procurement – Finished</td>
+    </tr>
+
+    <tr>
+    <td>Outputs and Impacts</td>
+    <td>Action: Computing infrastructure Installed
+<br></br>Document: Network Diagram, and System Configuration</td>
+    </tr>
+
+    <tr>
+    <td>Next step(s)</td>
+    <td>Server Setup and Software Installation</td>
+    </tr>
+
+    <tr>
+    <td>Resources and Tools</td>
+    <td></td>
+    </tr>
+                                      </tbody>
+                                    </Table>
                                     <br></br>
                                     The computing infrastructure should be appropriately documented to facilitate proper
                                     assessment,
@@ -468,6 +823,43 @@ export default function implementing() {
                                     include server and software installation. This will depend on the deployment
                                     architecture adapted by
                                     the Ministry and the Health facility.
+
+                                    <Table>
+                                      <tbody>
+                                      <tr>
+    <td>Role Involved</td>
+    <td>Responsible: Vendor
+<br></br>Helpers: Implementation lead, IT System Analyst, Network/System
+<br></br>Administrator
+<br></br>Acceptance: Health facility management
+<br></br>Inform: Health Facility Management, Councils, Region and Central
+steering committees.</td>
+    </tr>
+
+    <tr>
+    <td>Dependencies</td>
+    <td>iHFeMS acquisition – Finished
+<br></br>Computing Infrastructure Installation - Started</td>
+    </tr>
+
+    <tr>
+    <td>Outputs and Impacts</td>
+    <td>Action: iHFeMS software configured and installed
+<br></br>Document: System Configuration
+<br></br>Document: Technical and user manual</td>
+    </tr>
+
+    <tr>
+    <td>Next step(s)</td>
+    <td>System Acceptance Testing</td>
+    </tr>
+
+    <tr>
+    <td>Resources and Tools</td>
+    <td></td>
+    </tr>
+                                      </tbody>
+                                    </Table>
                                     <br></br>
                                     The iHFeMS system should be appropriately documented to facilitate continuity among
                                     developers
@@ -510,6 +902,40 @@ export default function implementing() {
                                     production, the key stakeholders must perform acceptance testing to get the buy-off
                                     of the functionality.
                                     This should be done after every release of the system.
+
+                                    <Table>
+                                      <tbody>
+                                      <tr>
+    <td>Role Involved</td>
+    <td>Responsible: Vendor
+<br></br>Helpers: Health facility implementation lead, Staff (target end users),
+NeHSC
+<br></br>Inform: Health Facility Management, Councils, Region and Central
+steering committees</td>
+    </tr>
+
+    <tr>
+    <td>Dependencies</td>
+    <td>Software Installation – Finished
+<br></br>Software Configuration - Finished</td>
+    </tr>
+
+    <tr>
+    <td>Outputs and Impacts</td>
+    <td>Action: Stakeholders have approved the system</td>
+    </tr>
+
+    <tr>
+    <td>Next step(s)</td>
+    <td>Training</td>
+    </tr>
+
+    <tr>
+    <td>Resources and Tools</td>
+    <td>System Acceptance Testing Tool</td>
+    </tr>
+                                      </tbody>
+                                    </Table>
                                 </p>
 
                                 <h4>Training </h4>
@@ -607,6 +1033,41 @@ export default function implementing() {
                                     </li>
 
                                 </ul>
+
+                                <Table>
+                                  <tbody>
+                                  <tr>
+    <td>Role Involved</td>
+    <td>Responsible: Trainers
+<br></br>Helpers: Health facility Implementation Lead, Vendor
+<br></br>Acceptance: Health Facility In charge
+<br></br>Inform: Health Facility Management, Councils, Region and Central
+steering committees.</td>
+    </tr>
+
+    <tr>
+    <td>Dependencies</td>
+    <td>Software Configuration – Finished
+<br></br>System Acceptance Testing - Finished</td>
+    </tr>
+
+    <tr>
+    <td>Outputs and Impacts</td>
+    <td>Document: Training materials
+<br></br>Action: end user trained and evaluated</td>
+    </tr>
+
+    <tr>
+    <td>Next step(s)</td>
+    <td>Trial-run</td>
+    </tr>
+
+    <tr>
+    <td>Resources and Tools</td>
+    <td></td>
+    </tr>
+                                  </tbody>
+                                </Table>
                                 </p>
 
                                 <h4>Trial-run/Deployment Approach</h4>
@@ -622,12 +1083,87 @@ export default function implementing() {
                                     to production use of
                                     the new system. The assessment should be guided by a well define Trial-run to
                                     Production Readiness
-                                    Assessment Tool (see Appendix D).</p>
+                                    Assessment Tool (see Appendix D).
+                                    
+                                    <Table>
+                                      <tbody>
+                                      <tr>
+    <td>Role Involved</td>
+    <td>Responsible: Vendor
+<br></br>Helpers: Health Facility In charge, Health facility staff, NeHSC
+<br></br>Acceptance: Health Facility In charge
+<br></br>Inform: Health Facility Management, Councils, Region and Central
+steering committees.</td>
+    </tr>
+
+    <tr>
+    <td>Dependencies</td>
+    <td>System Acceptance Testing – Finished
+<br></br>Training - Finished</td>
+    </tr>
+
+    <tr>
+    <td>Outputs and Impacts</td>
+    <td>Action: Users using the system in timely manner, consistently, and
+accurately
+<br></br>Action: Health facility passes pilot to production readiness assessment</td>
+    </tr>
+
+    <tr>
+    <td>Next step(s)</td>
+    <td>Pilot to production</td>
+    </tr>
+
+    <tr>
+    <td>Resources and Tools</td>
+    <td>Pilot to Production Assessment Tool</td>
+    </tr>
+                                      </tbody>
+                                    </Table>
+
+                                    </p>
 
                                 <h4>Trial-run to Production</h4>
                                 <p>Once the Health facility has passed the readiness assessment during the trial-run,
                                     the system should be
-                                    moved into production.</p>
+                                    moved into production.
+                                    
+                                    <Table>
+                                      <tbody>
+                                      <tr>
+    <td>Role Involved</td>
+    <td>Responsible: Vendor
+<br></br>Helpers: Health Facility In charge, Health facility staff, NeHSC
+<br></br>Acceptance: Health Facility In charge
+<br></br>Inform: Health Facility Management, Councils, Region and Central
+steering committees.</td>
+</tr>
+
+<tr>
+    <td>Dependencies</td>
+    <td>Pilot– Finished</td>
+</tr>
+
+<tr>
+    <td>Outputs and Impacts</td>
+    <td>Action: New system is in use for production; previous systems are
+deprecated and cycled out of production</td>
+</tr>
+
+<tr>
+    <td>Next step(s)</td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>Resources and Tools</td>
+    <td></td>
+</tr>
+
+                                      </tbody>
+                                    </Table>
+
+                                    </p>
 
                                 <h4>Quality Assurance During iHFeMS Implementation</h4>
 
@@ -651,7 +1187,34 @@ export default function implementing() {
                                     with
                                     the national iHFeMS standards and guidelines
                                     <br></br>
-                                    <b>Responsibility</b><br></br>
+                                    <b>Responsibility</b>
+                                    <Table>
+                                      <thead>
+                                      <tr>
+      <th>Responsible Person/Team</th>
+      <th>Responsibilities</th>
+      </tr>
+      </thead>
+
+      <tbody>
+      <tr>
+    <td>iHFeMS implementation team</td>
+    <td>1. Ensure implementation of quality standards in the acquisition
+process
+<br></br>2. Address any recommendation from quality assurance</td>
+</tr>
+
+<tr>
+    <td>Quality Assurance Officer</td>
+    <td>1. Check compliance with standards and guidelines
+<br></br>2. Report QA findings to the facility in-charge</td>
+</tr>
+
+      </tbody>
+                                      
+                                    </Table>
+
+
                                     <br></br>
                                     <b>Procedure</b><br></br>
                                     P1. Implementation of the iHFeMS and the computing infrastructure should be
@@ -713,25 +1276,39 @@ export default function implementing() {
 
                                     <b>Standard Guidelines</b>
                                     <br></br>
-                                    SG1 Initial maintenance and support shall be provided by the supplier of the iHFeMS
-                                    for at least six
-                                    months, and should be part of the supply and implementation contract
-                                    <br></br>SG2 Health facilities shall have at least one year maintenance and support
-                                    Service Level Agreement
-                                    (SLA) with the supplier of the iHFeMS after commissioning
-                                    <br></br>SG3 Health facilities shall put in place change management mechanisms for
-                                    identifying changes in
-                                    Health facility functions and workflows that needs to be reflected and accommodated
-                                    in the
-                                    iHFeMS, and continuously track and identify bugs or errors ( see iHFeMS change
-                                    management
-                                    sub section below)
-                                    <br></br>SG4 Health facilities shall ensure security of ICT infrastructure and
-                                    systems and patient and other
-                                    business data and information. (See iHFeMS security monitoring subsection)
-                                    <br></br>
-                                    <br></br><b>Responsibility</b>
-                                    <br></br>
+                                    <ListGroup>
+  <ListGroup.Item>SG1 Initial maintenance and support shall be provided by the supplier of the iHFeMS for at least six months, and should be part of the supply and implementation contract
+</ListGroup.Item>
+  <ListGroup.Item>SG2 Health facilities shall have at least one year maintenance and support Service Level Agreement (SLA) with the supplier of the iHFeMS after commissioning
+</ListGroup.Item>
+  <ListGroup.Item>SG3 Health facilities shall put in place change management mechanisms for identifying changes in Health facility functions and workflows that needs to be reflected and accommodated in the iHFeMS, and continuously track and identify bugs or errors ( see iHFeMS change management sub section below)
+</ListGroup.Item>
+  <ListGroup.Item>SG4 Health facilities shall ensure security of ICT infrastructure and systems and patient and other business data and information. (See iHFeMS security monitoring subsection)
+</ListGroup.Item>
+</ListGroup>  <br></br>
+                                    <b>Responsibility</b>
+                                    <Table>
+                                      <tbody>
+                                      <tr>
+    <td>End users</td>
+    <td>1. Request support and maintenance services from approved ICT
+personnel/ Team
+<br></br>2. Maintain proper operations of the system and related hardware</td>
+</tr>
+
+<tr>
+    <td>ICT Team</td>
+    <td>1. Ensure that all support activities are done in a timely manner in
+accordance to support and maintenance guidelines
+<br></br>2. Ensure that competent and approved personnel carry out support
+either internally or externally
+<br></br>3. Liaise with the vendor on addition and modification of iHFeMS
+functionalities
+<br></br>4. Determine and conduct continuous training to end users</td>
+</tr>
+
+                                      </tbody>
+                                    </Table>
                                 </p>
 
                                 <h4>iHFeMS Change Management</h4>
@@ -781,30 +1358,24 @@ export default function implementing() {
                                 controlled according to formal change management procedures. This section contains the Standard
                                 guidelines.<br></br>
 
-                                SG1 Change Initiation: All system changes shall be initiated by filling in the change control form,
-                                which will be signed by the respective heads of department, and addressed to the ICT department.
-                                <br></br>SG2 Change Authorization: Authorization for any changes, whether urgent or not, shall be given
-                                by the head of the ICT department if satisfied that the reason for the change is sound and that
-                                there is no adverse effect as a result of the change.
-                                <br></br>SG3 Testing of changes: All testing shall be done from a test environment. No change will be
-                                applied to the live/production environment without having been tested in the test environment.
-                                <br></br>SG4 Change approval: The concerned user departments shall check the system to see whether the
-                                results produced are as expected and a user acceptance testing (UAT) form shall be signed off.
-                                <br></br>SG5 Change Scheduling: To minimize disruption to the normal working operations of the Health
-                                facility, no changes shall be effected in the system during normal working hours unless absolutely
-                                necessary. All changes will be scheduled during weekends, public holidays or after business
-                                working hours.
-                                <br></br>SG6 Change Communication: All planned system changes shall be communicated in advance to
-                                the concerned parties to minimize on business disruption and inconveniences. For avoidance
-                                of doubt, no scheduled system change should be effected in the live iHFeMS during a busy
-                                business cycle.
-                                <br></br>SG7 Change Recovery, Safety measures: Before effecting any change in the production environment,
-                                a backup on a clearly labelled storage media shall be taken and kept for good. In the event that
-                                the change made produces unexpected results, the backup taken before the change was effected
-                                has to be used to restore the system to the point before the change.
-                                <br></br>SG8 Change Documentation and tracking:  All system changes, whether approved or not shall
-                                be documented and filed. The documentation shall include a duly completed and signed off
-                                “change request form”, the test results and any other comments/documents used.
+                                <ListGroup>
+  <ListGroup.Item>SG1 Change Initiation: All system changes shall be initiated by filling in the change control form, which will be signed by the respective heads of department, and addressed to the ICT department.
+</ListGroup.Item>
+  <ListGroup.Item>SG2 Change Authorization: Authorization for any changes, whether urgent or not, shall be given by the head of the ICT department if satisfied that the reason for the change is sound and that there is no adverse effect as a result of the change.
+</ListGroup.Item>
+  <ListGroup.Item>SG3 Testing of changes: All testing shall be done from a test environment. No change will be applied to the live/production environment without having been tested in the test environment.
+</ListGroup.Item>
+  <ListGroup.Item>SG4 Change approval: The concerned user departments shall check the system to see whether the results produced are as expected and a user acceptance testing (UAT) form shall be signed off.
+</ListGroup.Item>
+  <ListGroup.Item>SG5 Change Scheduling: To minimize disruption to the normal working operations of the Health facility, no changes shall be effected in the system during normal working hours unless absolutely necessary. All changes will be scheduled during weekends, public holidays or after business working hours.
+</ListGroup.Item>
+  <ListGroup.Item>SG6 Change Communication: All planned system changes shall be communicated in advance to the concerned parties to minimize on business disruption and inconveniences. For avoidance of doubt, no scheduled system change should be effected in the live iHFeMS during a busy business cycle.
+</ListGroup.Item>
+  <ListGroup.Item>SG7 Change Recovery, Safety measures: Before effecting any change in the production environment, a backup on a clearly labelled storage media shall be taken and kept for good. In the event that the change made produces unexpected results, the backup taken before the change was effected has to be used to restore the system to the point before the change.
+</ListGroup.Item>
+  <ListGroup.Item>SG8 Change Documentation and tracking: All system changes, whether approved or not shall be documented and filed. The documentation shall include a duly completed and signed off “change request form”, the test results and any other comments/documents used.
+</ListGroup.Item>
+</ListGroup>
 
                                 </p>
 
@@ -828,35 +1399,56 @@ export default function implementing() {
 
                                     <b>Standard Guidelines</b>
                                     <br></br>
-                                    SG1 Daily logs of all security events will be reviewed for unusual security events with further
-                                    investigation of unusual events.
-                                    <br></br>SG2 Sufficient information for after-the-fact investigation of unauthorized activity must be logged.
-                                    At a minimum the information in the tracking record associated with each event must include:
-                                    User ID; Associated terminal, port, network address, communication device; Information or
-                                    system accessed; Date and time of access; and Event Description.
-                                    <br></br>SG3 Health facility computing resources should be sufficiently monitored by a person responsible for
-                                    ICT security to detect deviations from authorized use.
-                                    <br></br>SG4 Regular monitoring of the secure status of all Health facility electronic information must be
-                                    undertaken, principally through the applications, platforms and infrastructure that support it.
-                                    <br></br>SG5 Monitoring of user activity on Health facility applications and the platforms supporting them
-                                    must be undertaken on a regular basis, using the logs of user activity provided by those systems.
-                                    <br></br>SG6 Any actual or suspected breach of security or related incident will be reported, recorded and
-                                    appropriate action taken to limit and remedy any impact on the security of the Health facility.
-                                    <br></br>SG7 The Health facility reserves the right to conduct all such monitoring activities on its systems as
-                                    are necessary to preserve and measure the security of its information and assets.
-                                    <br></br>SG8 All employees, agents and contractors who make any use of Health facility systems must be
-                                    informed of the Health facility’s right to monitor all such use and inspect any information
-                                    entrusted to Health facility systems, whether personal or not.
-                                    <br></br>SG9 Monitoring of Health facility systems and access to logs and other information produced during
-                                    monitoring must be restricted to employees specifically authorized to conduct such monitoring
-                                    as part of their normal duties.
-                                    <br></br>SG10 Measures must be put in place to protect logging facilities and log information against tampering
-                                    and unauthorized access.
-                                    <br></br>SG11 The clocks of all relevant information systems (e.g., networking devices, servers, and PC’s) must
-                                    be synchronized with an accurate time source for accuracy of timestamps on logs.
+                                    <ListGroup>
+  <ListGroup.Item>SG1 Daily logs of all security events will be reviewed for unusual security events with further investigation of unusual events.
+</ListGroup.Item>
+  <ListGroup.Item>SG2 Sufficient information for after-the-fact investigation of unauthorized activity must be logged. At a minimum the information in the tracking record associated with each event must include: User ID; Associated terminal, port, network address, communication device; Information or system accessed; Date and time of access; and Event Description.
+</ListGroup.Item>
+  <ListGroup.Item>SG3 Health facility computing resources should be sufficiently monitored by a person responsible for ICT security to detect deviations from authorized use.
+</ListGroup.Item>
+  <ListGroup.Item>SG4 Regular monitoring of the secure status of all Health facility electronic information must be undertaken, principally through the applications, platforms and infrastructure that support it.
+</ListGroup.Item>
+  <ListGroup.Item>SG5 Monitoring of user activity on Health facility applications and the platforms supporting them must be undertaken on a regular basis, using the logs of user activity provided by those systems.
+</ListGroup.Item>
+  <ListGroup.Item>SG6 Any actual or suspected breach of security or related incident will be reported, recorded and appropriate action taken to limit and remedy any impact on the security of the Health facility.
+</ListGroup.Item>
+  <ListGroup.Item>SG7 The Health facility reserves the right to conduct all such monitoring activities on its systems as are necessary to preserve and measure the security of its information and assets.
+</ListGroup.Item>
+  <ListGroup.Item>SG8 All employees, agents and contractors who make any use of Health facility systems must be informed of the Health facility’s right to monitor all such use and inspect any information entrusted to Health facility systems, whether personal or not.
+</ListGroup.Item>
+  <ListGroup.Item>SG9 Monitoring of Health facility systems and access to logs and other information produced during monitoring must be restricted to employees specifically authorized to conduct such monitoring as part of their normal duties.
+</ListGroup.Item>
+  <ListGroup.Item>SG10 Measures must be put in place to protect logging facilities and log information against tampering and unauthorized access.
+</ListGroup.Item>
+  <ListGroup.Item>SG11 The clocks of all relevant information systems (e.g., networking devices, servers, and PC’s) must be synchronized with an accurate time source for accuracy of timestamps on logs.
+</ListGroup.Item>
 
+</ListGroup>
+                    
                                     <br></br>
                                     <b>Responsibility</b>
+
+                                    <Table>
+                                      <thead>
+                                      <tr>
+      <th>Role</th>
+
+      <th>Responsibilities</th>
+      </tr>
+                                      </thead>
+
+                                      <tbody>
+                                      <tr>
+    <td>All Users</td>
+    <td>All Health facility users who are in possession of, or control
+access to Health facility information or computers covered by
+this Guideline are responsible and accountable for its protection
+in accordance with this Guideline and supporting guidelines and
+procedures.</td>
+</tr>
+
+                                      </tbody>
+                                    </Table>
                                 </p>
 
     </div>

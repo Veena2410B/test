@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Button from 'react-bootstrap/Button';
+import { Spring } from 'react-spring/renderprops'
+
 
 
 export class MenuRequirements extends Component {
@@ -16,7 +18,15 @@ export class MenuRequirements extends Component {
 
         <div align="center">
 
-
+        <Spring
+        from={{ opacity: 0 }}
+        to={{opacity: 1 }}
+        config={{ delay: 100, duration: 1000}}
+        >
+        { props => (
+            <div style={props}>
+            <div>
+            
 <div >
 <Link to="/requirements/SystemFunctionalNonFunctionalRequirements">    
 <Button size="lg" variant="outline-success" >System Functional and Non-functional Requirements</Button>
@@ -64,10 +74,12 @@ export class MenuRequirements extends Component {
   <Link to="/requirements/InfrastructureHumanResourceRequirements">
   <Button size="lg" variant="outline-success">Infrastructure and Human Resource Requirements</Button></Link>
   </div>
-
+            </div>
+            </div>
+        )}
+    </Spring>
   </div>
 
- 
         {/* <Link to="/requirements/SystemFunctionalNonFunctionalRequirements">System Functional and Non-functional Requirements</Link> 
         <br></br><Link to="/requirements/FunctionalRequirements">Functional Requirements</Link> 
         <br></br><Link to="/requirements/NonFunctionalRequirements">Non Functional Requirements</Link> 

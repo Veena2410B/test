@@ -8,6 +8,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Picture } from 'react-responsive-picture';
 import fig1 from '../../../public/images/Fig1-HealthFacilityBusinessProcessFramework.png'; 
+import { Spring } from 'react-spring/renderprops'
 
 
 export default function MenuBusinessProcess() {
@@ -20,9 +21,15 @@ export default function MenuBusinessProcess() {
 
 <div align="center">
 
-
-
-<Container>
+<Spring
+        from={{ opacity: 0 }}
+        to={{opacity: 1 }}
+        config={{ delay: 100, duration: 1000}}
+        >
+        { props => (
+            <div style={props}>
+            <div>
+            <Container>
   <Row>
     <Col><Link to="/businessprocess/PatientCareManagement">    
 <Button size="lg" variant="outline-success" >Patient Care Management</Button>
@@ -165,6 +172,14 @@ shall be approved by the Health facility steering committee
     </Card.Body>
   </Card>
   <br />
+            </div>
+            </div>
+        )}
+    </Spring>
+
+
+
+
 
   </div>
 

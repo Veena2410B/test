@@ -1,30 +1,22 @@
 import React, {Component } from 'react'
-import { Link } from 'react-router-dom';
-
 import Modal from '../../components/layout/modal/Modal';
 import Vision from './background/Vision';
 import Purpose from './background/Purpose';
 import Audience from './background/Audience';
-
 import Card from 'react-bootstrap/Card'
+import { Spring } from 'react-spring/renderprops'
 
 
 
 class MenuBackground extends Component {
-
-
   state = {
     isOpen1: false,
     iOpen2: false,
     isOpen3: false
-
   }
 
  render(){
-
   return (
-
-       
     <div align="center">
 
     <h1>Background</h1>
@@ -44,7 +36,16 @@ class MenuBackground extends Component {
         </Modal>
         <br></br>
         </div>
-        <div className="c">
+
+
+        <Spring
+        from={{ opacity: 0 }}
+        to={{opacity: 1 }}
+        config={{ delay: 100, duration: 1000}}
+        >
+        { props => (
+            <div style={props}>
+            <div className="c">
         <Card bg="success" text="white" >
     <Card.Header> </Card.Header>
     <Card.Body>
@@ -112,6 +113,13 @@ Electronic Management System.
   </Card>
   <br />
 </div>
+            </div>
+        )}
+    </Spring>
+
+
+
+        
     </div>
   )
 }

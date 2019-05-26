@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Button from 'react-bootstrap/Button';
+import { Spring } from 'react-spring/renderprops'
+
 
 
 export class MenuGuidelines extends Component {
@@ -16,7 +18,15 @@ export class MenuGuidelines extends Component {
 
 <h2>Implementing The iHFeMS: Guidelines</h2>
 
-<p>Part C presents the minimum requirements and standards that the iHFeMS must meet to
+<Spring
+        from={{ opacity: 0 }}
+        to={{opacity: 1 }}
+        config={{ delay: 100, duration: 1000}}
+        >
+        { props => (
+            <div style={props}>
+            <div>
+            <p>Part C presents the minimum requirements and standards that the iHFeMS must meet to
                               ensure
                               that it create the value and the utility to its stakeholders. However, meeting the
                               above-mentioned
@@ -63,6 +73,13 @@ export class MenuGuidelines extends Component {
   <Link to="/guidelines/accessingComplianceExistingSystem">
   <Button size="lg"  variant="outline-success">Guidelines For Accessing Compliance Of Existing iHFeMS</Button>
   </Link>
+            </div>
+            </div>
+        )}
+    </Spring>
+
+
+
   </div>
 
   <br></br>

@@ -4,6 +4,9 @@
   "main": "index.html",
   "author": "Veena Balakumar",
   "license": "MIT",
+  "engines": {
+    "node": "11.13.0"
+  },
   "scripts": {
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",

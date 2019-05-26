@@ -1,0 +1,128 @@
+
+
+body {
+    background-color: black; 
+    background-image: url(/images/tz.png) !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    font-family: "Roboto", sans-serif;
+    color: #333333;
+    font-size: 16px;
+    overflow-x: hidden;
+    text-align: left;   
+
+
+}
+
+  .main {
+    background-color: #ffffff; 
+    opacity: 0.96;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ .main h1, .main h3, .main h4, .main h5, .main h6 {
+    font-family: "Montserrat", sans-serif;
+    color: #009933;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px #cfcfcf;
+
+  }
+
+  .main h3, .main h4, .main h5, .main h6 {
+
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+
+  }
+  
+  .main h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #0066ff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px #000000;
+
+  }
+
+  div.c {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  p {
+    background-color: #f2f2f2; opacity:0.8;
+    font-family: "Roboto", sans-serif;
+    color: #333333; 
+    font-size: 16px;
+    overflow-x: hidden;
+    text-align: left;
+    margin: 50px;
+    box-shadow: 3px 3px;
+
+
+  }
+
+  pp {
+    background-color: #f2f2f2; opacity:0.8;
+    font-family: "Roboto", sans-serif;
+    color: #333333; 
+    font-size: 16px;
+    overflow-x: hidden;
+    text-align: center;
+    margin: 50px;
+    box-shadow: 3px 3px;
+
+
+  }
+
+
+
+
+  a:link, a:visited
+  {
+      color:blue;
+      text-decoration: none;
+      padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+
+  }
+  a:hover, a:visited:hover
+  {
+      color: #fff;
+      text-decoration: none!important;
+/*       font-weight: bold; 
+ */      
+    }
+
+  
+    .responsive {
+      max-width:100%;
+      height: auto;
+    }
+

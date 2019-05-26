@@ -5,7 +5,9 @@
   "author": "Veena Balakumar",
   "license": "MIT",
   "engines": {
-    "node": "11.13.0"
+    "node": "11.13.0",
+    "npm": "6.9.0",
+    "yarn": "1.15.2"
   },
   "scripts": {
     "build:dev": "webpack",

@@ -16,78 +16,74 @@ import InputGroup from 'react-bootstrap/InputGroup'
 export default function Navigation() {
   return (
 
-     <div align="center">      
-<br></br>
-<br></br>
+    <div align="center">
+      <br></br>
+      <br></br>
 
+      <div className="d-flex flex-column">
 
+        <Navbar bg="light" expand="lg">
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="mr-auto">
 
-<div className="d-flex flex-column">
+              <Link to="/Home">
+                <Button size="lg" variant="outline-success" >Home</Button>
+              </Link>
 
-<Navbar bg="light" expand="lg">
-<Navbar.Toggle aria-controls="basic-navbar-nav" />
-<Navbar.Collapse id="basic-navbar-nav">
-<Nav className="mr-auto">
+              <Link to="/MenuBackground">
+                <Button size="lg" variant="outline-success" >Background</Button>
+              </Link>
 
+              <Link to="/MenuBusinessProcess">
+                <Button size="lg" variant="outline-success" >Business Process</Button>
+              </Link>
 
- 
-            <Link to="/">
-              <Button size="lg" variant="outline-success" >Home</Button>
-            </Link>
+              <Link to="/MenuRequirements">
+                <Button size="lg" variant="outline-success" >Requirements and Standards</Button>
+              </Link>
 
-            <Link to="/MenuBackground">
-              <Button size="lg" variant="outline-success" >Background</Button>
-            </Link>
+              <Link to="/MenuGuidelines">
+                <Button size="lg" variant="outline-success" >Guidelines</Button>
+              </Link>
 
-            <Link to="/MenuBusinessProcess">
-              <Button size="lg" variant="outline-success" >Business Process</Button>
-            </Link>
-
-            <Link to="/MenuRequirements">
-              <Button size="lg" variant="outline-success" >Requirements and Standards</Button>
-            </Link>
-
-            <Link to="/MenuGuidelines">
-              <Button size="lg" variant="outline-success" >Guidelines</Button>
-            </Link>
-
-            {/* <Link to="/Contact">    
+              {/* <Link to="/Contact">    
 <Button size="lg" variant="outline-success" >Contact</Button>
 </Link> 
- */}        
+ */}
 
 
 
-      </Nav>
+            </Nav>
 
 
-  </Navbar.Collapse>
+          </Navbar.Collapse>
 
-      </Navbar>
-
-
-    
+        </Navbar>
 
 
-    </div>
 
-    <br></br>
 
-  {/*   <Form inline>
+
+      </div>
+
+      <br></br>
+
+      {/*   <Form inline>
       <FormControl type="text" placeholder="Search" className="mr-sm-2" />
       <Button variant="outline-success">Search</Button>
     </Form>
      */}
 
-{/* <div align="right">
+      {/* <div align="right">
 <Form inline>
       <FormControl type="text" placeholder="Search" className="mr-sm-2" defaultValue="" />
       <Button variant="outline-primary">Search</Button>
     </Form>
     </div> */}
 
-    <br></br>
-    <br></br>
+      <br></br>
+      <br></br>
     </div>
 
 

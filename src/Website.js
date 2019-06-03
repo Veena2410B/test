@@ -49,6 +49,8 @@ class Website extends Component {
             <Header />
             <Navigation />
             <Route exact path="/" component={Home} />
+            <Route path="/guideline" component={Home} />
+            <Route path="/Home" component={Home} />
             <Route path="/MenuBackground" component={MenuBackground} />
             <Route path="/MenuBusinessProcess" component={MenuBusinessProcess} />
             <Route path="/MenuRequirements" component={MenuRequirements} />

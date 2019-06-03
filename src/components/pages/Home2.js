@@ -17,7 +17,7 @@ class Home2 extends Component {
     <Card.Header>WELCOME</Card.Header>
     <Card.Body>
       <Card.Title>GUIDELINES AND STANDARDS
-FOR INTEGRATED HEALT FACILITY ELECTRONIC MANAGEMENT SYSTEM</Card.Title>
+FOR INTEGRATED HEALTH FACILITY ELECTRONIC MANAGEMENT SYSTEM</Card.Title>
       <Card.Text>
       The Government of Tanzania’s (GoT) mission is to facilitate the provision of quality and accessible health services efficiently. Despite the noticeable improvement towards this mission, the sector still faces several challenges. These include inadequate funding, rising health facility management costs, shortage of healthcare workers and inefficiencies in the use of available resources to adequately provide required health services. To overcome these challenges the government has implemented various reforms in the health sector.
 
